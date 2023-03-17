@@ -1,0 +1,37 @@
+// Top-level build file where you can add configuration options common to all sub-projects/modules.
+
+android {
+    compileSdkVersion 17
+}
+dependencies {
+    compile files('app/libs/junit-4.12-JavaDoc.jar')
+}
+apply plugin: 'maven'
+
+plugins {
+    id 'com.android.application' version '7.1.1' apply false
+    id 'com.android.library' version '7.1.1' apply false
+}
+
+allprojects {
+    repositories {
+        google()
+
+         //If you're using a version of Gradle lower than 4.1, you must instead use:
+         maven {
+             url 'https://maven.google.com'
+         }
+        //jcenter()
+         android {
+                useLibrary 'org.apache.http.legacy'
+            }
+    }
+//    dependencies {
+//        classpath 'com.android.tools.build:gradle:3.0.0'
+//    }
+
+}
+
+task clean(type: Delete) {
+    delete rootProject.buildDir
+}

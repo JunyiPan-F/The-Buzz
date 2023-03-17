@@ -1,0 +1,44 @@
+body{
+    background-color: yellow;
+}
+
+nav{
+    background-color: black;
+    color: white;
+    text-align: left;
+}
+nav:active {color: rgb(255, 255, 255)};
+
+
+.green {
+    color: green;
+}
+
+body {
+    font-size: 14pt;
+    font-family: Arial;
+}
+
+div.footer{
+    position: absolute; bottom: 10px;
+}
+
+div.NewMessage{
+    position: absolute; right: 5px;
+}
+
+div.newMess{
+    position: relative; top: 30px;
+    outline-color: black;
+}
+
+div.top{
+    text-align: center;
+    font-size: 25pt;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+a{
+    color:white;
+}
+

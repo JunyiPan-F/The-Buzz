@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">The Buzz!</string>
+    <string name="title_activity_second">SecondActivity</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <!-- Button labels -->
+
+    <string name="sign_out">Sign Out</string>
+    <string name="disconnect">Disconnect</string>
+    <!-- Sign-in status messages -->
+    <string name="id_token_fmt">ID Token: %s</string>
+    <string name="signed_out">Signed out</string>
+    <string name="signed_in">Signed in</string>
+    <string name="server_client_id">373597156492-1tp2j01oq2b7k03ht3fedl6sqk105oqh.apps.googleusercontent.com</string>
+    <!--usr info-->
+    <string name="usr_name">%1s</string>
+    <string name="usr_id">%1s</string>
+    <string name="usr_email">%1s</string>
+    <!--message info-->
+    <string name="post_comment">%1s</string>
+    <string name="title_activity_comment">CommentActivity</string>
+    <string name="title_activity_profile">ProfileActivity</string>
+</resources>

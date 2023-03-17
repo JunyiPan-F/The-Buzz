@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/light_orange">
+
+    <TextView
+        android:id="@+id/profile_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:text="Profile"
+        android:background="@color/orange"
+        android:minWidth="48dp"
+        android:minHeight="48dp"
+        android:textColor="@color/purple_500"
+        android:textSize="30sp"/>
+    <TextView
+        android:id="@+id/name_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:layout_marginTop="20dp"
+        android:text="user name :"
+        android:background="@color/orange"
+        android:minWidth="48dp"
+        android:minHeight="48dp"
+        android:textColor="@color/purple_500"
+        android:textSize="15sp"/>
+    <TextView
+        android:id="@+id/textName"
+        android:gravity="center"
+        android:textColor="@color/purple_700"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/usr_name"
+        android:textSize="20sp"/>
+
+    <TextView
+        android:id="@+id/id_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:layout_marginTop="20dp"
+        android:text="user id :"
+        android:background="@color/orange"
+        android:minWidth="48dp"
+        android:minHeight="48dp"
+        android:textColor="@color/purple_500"
+        android:textSize="15sp"/>
+    <TextView
+        android:id="@+id/textId"
+        android:gravity="center"
+        android:textColor="@color/purple_700"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textName"
+        android:text="@string/usr_id"
+        android:textSize="20sp"/>
+    <TextView
+        android:id="@+id/email_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:layout_marginTop="20dp"
+        android:text="user email :"
+        android:background="@color/orange"
+        android:minWidth="48dp"
+        android:minHeight="48dp"
+        android:textColor="@color/purple_500"
+        android:textSize="15sp"/>
+    <TextView
+        android:id="@+id/textEmail"
+        android:gravity="center"
+        android:textColor="@color/purple_700"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textId"
+        android:text="@string/usr_email"
+        android:textSize="20sp"/>
+
+</LinearLayout>

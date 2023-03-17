@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardElevation="4dp"
+    app:cardCornerRadius="8dp"
+    android:layout_marginHorizontal="16dp"
+    android:layout_marginVertical="8dp">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="380dp"
+        android:layout_height="wrap_content"
+        android:padding="8dp"
+        android:background="@color/light_orange">
+        <Button
+            android:id="@+id/btn_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="15dp"
+            android:layout_marginTop="15dp"
+            app:layout_constraintLeft_toLeftOf="parent"
+            android:text="@string/usr_name"
+            app:layout_constraintBottom_toTopOf="@id/newCommentButton"
+            app:layout_constraintTop_toTopOf="parent"
+            android:background="@android:color/transparent"
+            android:textColor="@color/purple_500">
+        </Button>
+        <TextView
+            android:id="@+id/message"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="new message"
+            android:paddingLeft="5dp"
+            android:layout_marginTop="15dp"
+            app:layout_constraintLeft_toRightOf="@+id/btn_id"
+            app:layout_constraintBottom_toTopOf="@id/newCommentButton"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ToggleButton
+            android:id="@+id/likeButton"
+            android:layout_width="29dp"
+            android:layout_height="40dp"
+            android:paddingLeft="15dp"
+            android:layout_marginTop="15dp"
+            android:background="drawable/toggle_selector"
+            android:onClick="onCustomToggleClick"
+            android:textOff=""
+            android:textOn=""
+            app:layout_constraintStart_toEndOf="@id/message"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ToggleButton
+            android:id="@+id/dislikeButton"
+            android:layout_width="29dp"
+            android:layout_height="40dp"
+            android:paddingLeft="15dp"
+            android:layout_marginTop="15dp"
+            android:background="drawable/toggle_selector"
+            android:onClick="onCustomToggleClick"
+            android:textOff=""
+            android:textOn=""
+            app:layout_constraintStart_toEndOf="@id/likeButton"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/newCommentButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/message"
+            android:background="@android:color/transparent"
+            android:minWidth="48dp"
+            android:minHeight="48dp"
+            android:text="Add Comment"
+            android:textAllCaps="false"
+            android:textColor="@android:color/darker_gray"
+            android:textSize="12sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintEnd_toStartOf="@id/viewCommentButton"/>
+
+        <Button
+            android:id="@+id/viewCommentButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/message"
+            android:background="@android:color/transparent"
+            android:minWidth="48dp"
+            android:minHeight="48dp"
+            android:text="View Comments"
+            android:textAllCaps="false"
+            android:textColor="@android:color/darker_gray"
+            android:textSize="12sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toEndOf="@id/newCommentButton"/>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.cardview.widget.CardView>

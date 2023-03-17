@@ -1,0 +1,16 @@
+{
+  "name": "web",
+  "version": "1.0.0",
+  "description": "Web Front-End",
+  "dependencies": {
+    "build": "^0.1.4",
+    "http-server": "^14.1.0",
+    "jasmine-core": "^4.0.0",
+    "jquery": "^3.6.0",
+    "typescript": "^4.5.5"
+  },
+  "devDependencies": {
+    "@types/jest": "^27.4.0",
+    "@types/jquery": "^3.5.14"
+  }
+}

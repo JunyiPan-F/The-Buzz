@@ -1,0 +1,47 @@
+/** Can add borders here
+table, th, td{
+		
+}
+*/
+
+/**Sets the color of Table header*/
+th{
+	background-color: black;
+	color: ghostwhite;
+}
+
+/** sets color of row as you hover over it */
+tr:hover {background-color: green;}
+
+/** sets the width of the table to the page*/
+table{
+	width: 100%;
+}
+
+/** Goes from double-border to single*/
+table{
+	border-collapse: collapse;
+}
+
+table{
+	position:relative; top: 40px;
+}
+
+/** Centers text */
+td{
+	text-align: center;
+}
+
+/** Bottom border only*/
+th, td{
+	border-bottom: 1px solid #ddd;
+}
+
+
+
+
+
+
+
+
+

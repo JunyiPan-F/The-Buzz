@@ -1,0 +1,105 @@
+.app-container {
+  display: flex;
+  justify-content: center;
+}
+
+.login {
+  margin-top: 50px;
+  text-align: center;
+  width: 300px;
+  height: 300px;
+  border: 1px solid black;
+}
+
+.navbar-container {
+  display: flex;
+  justify-content: space-between;
+  background-color: black;
+  height: 60px;
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-top: 2px;
+}
+
+.title {
+  color:  yellow;
+}
+
+.whosLoggedIn {
+  color: yellow;
+  margin-right: 5px;
+  display: inline-block;
+}
+
+.messages-container {
+  margin-top: 20px;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+th {
+  text-align: left;
+}
+
+.table {
+  border: 1px black solid;
+  width: 1000px;
+  background-color: black;
+  color: yellow;
+}
+
+.add-message {
+  text-align: right;
+  margin-bottom: 10px;
+}
+
+.add-message-container {
+  margin-top: 20px;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+.subject {
+  width: 500px;
+  margin-bottom: 5px;
+}
+
+.message-text-area {
+  width: 500px;
+  height: 100px;
+  margin-bottom: 5px;
+}
+
+.add-button {
+  margin-right: 5px;
+}
+
+.like-button {
+  margin-right: 5px;
+}
+
+.dislike-button {
+  margin-right: 5px;
+}
+
+.add-comment-container {
+  margin-top: 20px;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+.add-comment-button {
+  margin-right: 5px;
+}
+
+.comment-text-area {
+  width: 500px;
+  height: 100px;
+  margin-bottom: 5px;
+}
+
+.show-comments-container {
+  margin-top: 20px;
+  padding-left: 100px;
+  padding-right: 100px;
+}
